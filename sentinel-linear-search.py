@@ -17,7 +17,7 @@ def sentinel(a, n, x):
     return "NOT FOUND"
 
 
-def main():
+def testSentinel():
     a = ['a','b','c','d','e']
     print(sentinel(a, 5, 'a'))
     print(sentinel(a, 5, 'b'))
@@ -28,4 +28,4 @@ def main():
     print(sentinel(a, 5, 1))
 
 
-main()
+testSentinel()
