@@ -4,7 +4,7 @@ def selection(a, n):
     :param a: array
     :param n: num of elements in a
     """
-    for i in range(len(a)):
+    for i in range(n):
        smallest = i
        for j in range(i+1, n):
            if a[j] < a[smallest]:
