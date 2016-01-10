@@ -23,6 +23,3 @@ def testRls():
     print(rls(a,5,0,'e'))
     print(rls(a,5,0,'f'))
     print(rls(a,5,-1,'a'))
-
-
-testRls()

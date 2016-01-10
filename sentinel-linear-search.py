@@ -26,6 +26,3 @@ def testSentinel():
     print(sentinel(a, 5, 'e'))
     print(sentinel(a, 5, 'f'))
     print(sentinel(a, 5, 1))
-
-
-testSentinel()
